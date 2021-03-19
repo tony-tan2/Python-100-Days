@@ -1,14 +1,12 @@
 """
-输出2~99之间的素数
+输出100以内所有的素数
+素数是指只能被1和自身整除的正整数（不包括1）
 
-Version: 0.1
-Author: 骆昊
-Date: 2018-03-02
 """
 
 import math
 
-for num in range(2, 100):
+for num in range(2, 99):
     is_prime = True
     for factor in range(2, int(math.sqrt(num)) + 1):
         if num % factor == 0:
@@ -16,3 +14,4 @@ for num in range(2, 100):
             break
     if is_prime:
         print(num, end=', ')
+

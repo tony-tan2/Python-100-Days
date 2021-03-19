@@ -9,7 +9,7 @@ Date: 2018-03-02
 """
 import math
 
-for num in range(1, 10000):
+for num in range(1, 1000000):
     result = 0
     for factor in range(1, int(math.sqrt(num)) + 1):
         if num % factor == 0:
@@ -17,4 +17,4 @@ for num in range(1, 10000):
             if factor > 1 and num // factor != factor:
                 result += num // factor
     if result == num:
-        print(num)
+        print(num, end= ', ')

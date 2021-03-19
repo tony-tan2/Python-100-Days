@@ -1,0 +1,9 @@
+{
+    "python.pythonPath": "/usr/local/bin/python3",
+    "jupyter.jupyterServerType": "local",
+    "python.dataScience.jupyterServer": "http://localhost:8888/?token=9fa839d2b511a150eb855d3148fedefb3d934377253e3832",
+    "workbench.editorAssociations": [
+
+    ]
+    
+}
